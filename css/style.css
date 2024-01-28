@@ -9,6 +9,12 @@
   background-color: #782221;
   color: white;
 }
+#photos a:hover{
+  cursor:zoom-in;
+}
+.pro h2:hover{
+  border-color: black;
+}
 
 #contact {
   background-color: #2c1d27;
@@ -31,6 +37,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   color: black;
+  min-height:950px;
 }
 .pro {
   width: 70%;
@@ -43,6 +50,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   color: black;
+  overflow: hidden;
 }
 p {
   text-align: justify;
